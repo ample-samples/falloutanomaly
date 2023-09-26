@@ -8,19 +8,19 @@ export function NavBar() {
     console.log(e.target.name)
     switch (e.target.name) {
       case "About":
-        navigate("/about")
+        navigate(`/about`)
         break;
 
       case "Home":
-        navigate("/")
+        navigate(`/`)
         break;
 
       case "Docs":
-        navigate("/docs")
+        navigate(`/docs`)
         break;
 
       case "Socials":
-        navigate("/socials")
+        navigate(`/socials`)
         break;
 
       default:
