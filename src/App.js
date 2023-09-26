@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="title">Fallout Anomaly</h1>
-      <img src={falloutanomalybanner} alt="banner" className="banner" />
+      <div className="hero-card"></div>
     </div>
   );
 }
