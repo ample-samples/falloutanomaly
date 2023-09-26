@@ -1,26 +1,27 @@
 import { useNavigate } from "react-router-dom"
 
+const pathStart = "falloutanomaly"
+
 export function NavBar() {
   const navigate = useNavigate()
-  const tabs = ["Home", "About", "Docs", "Socials"]
+  const tabs = ["Home", "About", "Documentation", "Socials"]
 
   const handleNav = (e) => {
-    console.log(e.target.name)
     switch (e.target.name) {
       case "About":
-        navigate(`/about`)
+        navigate(`/${pathStart}/about`)
         break;
 
       case "Home":
-        navigate(`/`)
+        navigate(`/${pathStart}/`)
         break;
 
-      case "Docs":
-        navigate(`/docs`)
+      case "Documentation":
+        navigate(`/${pathStart}/docs`)
         break;
 
       case "Socials":
-        navigate(`/socials`)
+        navigate(`/${pathStart}/socials`)
         break;
 
       default:
