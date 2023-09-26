@@ -2,13 +2,17 @@ import { useNavigate } from "react-router-dom"
 
 export function NavBar() {
   const navigate = useNavigate()
-  const tabs = ["About", "Docs", "Socials"]
+  const tabs = ["Home", "About", "Docs", "Socials"]
 
   const handleNav = (e) => {
     console.log(e.target.name)
     switch (e.target.name) {
       case "About":
         navigate("/about")
+        break;
+
+      case "Home":
+        navigate("/")
         break;
 
       case "Docs":
