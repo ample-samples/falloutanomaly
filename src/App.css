@@ -2,17 +2,29 @@
   margin: 0.5rem;
 }
 
-body, html {
-    height: 100%;
-}
-
 .hero-card {
-  background-image: "./files/pictures/falloutanomalybanner.webp";
-    height: 10%;
+  background-image: url("./files/pictures/falloutanomalybanner.webp");
+  height: 300px;
+  width: 100vw;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.navbar {
+  border: 2px solid black;
+  padding-left: 1rem;
+  padding-left: 1rem;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.navbar-tab {
+  margin: 2px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 6px;
 }
