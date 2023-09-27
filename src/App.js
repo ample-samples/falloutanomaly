@@ -6,13 +6,14 @@ import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Media } from './pages/Media';
 import { Articles } from './pages/Articles';
+import foalogo from "./files/pictures/FOAlogo.png"
 
 function App() {
   return (
     <div className="App">
       <div className="hero-banner">
         <div className="hero-card">
-          <h1 className="hero-title">Fallout Anomaly</h1>
+          <img className="hero-title" src={foalogo} alt="" />
         </div>
       </div>
         <NavBar />
