@@ -19,7 +19,6 @@ class AutoPlay extends Component {
     const sliderImgWidth = "100%"
     return (
       <div>
-        <h2>Gameplay</h2>
         <Slider {...settings}>
           <div className="slider-container">
             <a rel="noreferrer" className="slider-image" target="_blank" href="https://www.nexusmods.com/fallout4/mods/33812">
@@ -96,6 +95,7 @@ export function Home() {
         Fallout Anomaly offers an expansive and captivating experience, blending the rich storytelling of A Storywealth, the survival and eerie atmosphere of Immersive Wasteland, the modern gameplay of Vault Boy 101 Total Overhaul v.2.0, and the haunting Stalker-like ambiance of Lost World. Join us in this relentless pursuit of adventure and uncover the secrets of the Commonwealth. Your journey begins now!
       </p>
       <hr/>
+        <h2 style={{margin:"3rem 0 0 0"}}>Gameplay</h2>
       <AutoPlay />
     </>
   )
