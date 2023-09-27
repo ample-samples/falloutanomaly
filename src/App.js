@@ -18,11 +18,11 @@ function App() {
         <NavBar />
         <div className="main-content">
           <Routes>
-            <Route path="/falloutanomaly" element={<Home />} />
-            <Route path="/falloutanomaly/about" element={<About />} />
-            <Route path="/falloutanomaly/docs" element={<></>} />
-            <Route path="/falloutanomaly/articles" element={<Articles />} />
-            <Route path="/falloutanomaly/media" element={<Media />} />
+            <Route path="" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/docs" element={<></>} />
+            <Route path="/articles" element={<Articles />} />
+            <Route path="/media" element={<Media />} />
           </Routes>
         </div>
     </div>

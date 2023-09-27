@@ -9,23 +9,23 @@ export function NavBar() {
   const handleNav = (e) => {
     switch (e.target.name) {
       case "About":
-        navigate(`/${pathStart}/about`)
+        navigate(`/about`)
         break;
 
       case "Home":
-        navigate(`/${pathStart}/`)
+        navigate(`/`)
         break;
 
       case "Documentation":
-        navigate(`/${pathStart}/docs`)
+        navigate(`/docs`)
         break;
 
       case "Articles":
-        navigate(`/${pathStart}/articles`)
+        navigate(`/articles`)
         break;
 
       case "Media":
-        navigate(`/${pathStart}/media`)
+        navigate(`/media`)
         break;
 
       default:
