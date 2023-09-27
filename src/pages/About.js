@@ -12,12 +12,12 @@ export function About() {
       <h1>Socials</h1>
       <h1>Team</h1>
       <div className="team-container">
-        <img src={quikcarnage} alt="" style={{maxWidth: "300px"}} />
-        <img src={nomad} alt="" style={{maxWidth: "300px"}} />
-        <img src={crolivia} alt="" style={{maxWidth: "300px"}} />
-        <img src={john} alt="" style={{maxWidth: "300px"}} />
-        <img src={toddg} alt="" style={{maxWidth: "300px"}} />
-        <img src={lordcommander022} alt="" style={{maxWidth: "300px"}} />
+        <img src={quikcarnage} alt=""/>
+        <img src={nomad} alt=""/>
+        <img src={crolivia} alt=""/>
+        <img src={john} alt=""/>
+        <img src={toddg} alt=""/>
+        <img src={lordcommander022} alt=""/>
       </div>
       <h1>Credits</h1>
       <h1>Anything else</h1>
