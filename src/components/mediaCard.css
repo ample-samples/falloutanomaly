@@ -2,6 +2,8 @@
   display: inline-block;
   max-width: 100%;
   color: var(--color-4);
+  width: 1000px;
+  height: auto;
 }
 
 .desc-overlay {
