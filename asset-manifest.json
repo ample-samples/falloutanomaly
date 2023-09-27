@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/falloutanomaly/static/css/main.72d172da.css",
-    "main.js": "/falloutanomaly/static/js/main.2537f454.js",
+    "main.css": "/falloutanomaly/static/css/main.dfbbeb21.css",
+    "main.js": "/falloutanomaly/static/js/main.41c38f3d.js",
     "static/js/787.c3f558a8.chunk.js": "/falloutanomaly/static/js/787.c3f558a8.chunk.js",
     "static/media/Photo53.png": "/falloutanomaly/static/media/Photo53.9bb0cd2e0ee445b4a7a3.png",
     "static/media/lordcommander022.webp": "/falloutanomaly/static/media/lordcommander022.828b6b2c8903a59f533d.webp",
@@ -10,16 +10,19 @@
     "static/media/john.webp": "/falloutanomaly/static/media/john.21ddc19972f8b68fcd3e.webp",
     "static/media/quik-carnage.webp": "/falloutanomaly/static/media/quik-carnage.50891590ec69c16fde9f.webp",
     "static/media/nomad.webp": "/falloutanomaly/static/media/nomad.604e107155ceec846e8c.webp",
-    "static/media/falloutanomalybanner.webp": "/falloutanomaly/static/media/falloutanomalybanner.f9e19aba1691eabd034e.webp",
     "static/media/FOAlogo-small.png": "/falloutanomaly/static/media/FOAlogo-small.e6a37d48251f8fb8e619.png",
     "static/media/toddg.png": "/falloutanomaly/static/media/toddg.8b48a37f0eda9ce1915b.png",
+    "static/media/slick.svg": "/falloutanomaly/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/falloutanomaly/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/falloutanomaly/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/falloutanomaly/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/falloutanomaly/index.html",
-    "main.72d172da.css.map": "/falloutanomaly/static/css/main.72d172da.css.map",
-    "main.2537f454.js.map": "/falloutanomaly/static/js/main.2537f454.js.map",
+    "main.dfbbeb21.css.map": "/falloutanomaly/static/css/main.dfbbeb21.css.map",
+    "main.41c38f3d.js.map": "/falloutanomaly/static/js/main.41c38f3d.js.map",
     "787.c3f558a8.chunk.js.map": "/falloutanomaly/static/js/787.c3f558a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72d172da.css",
-    "static/js/main.2537f454.js"
+    "static/css/main.dfbbeb21.css",
+    "static/js/main.41c38f3d.js"
   ]
 }
