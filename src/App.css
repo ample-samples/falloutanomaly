@@ -21,7 +21,7 @@ h2 {
 .hero-card {
   background-image: url("./files/pictures/falloutanomalybanner.webp");
   height: 300px;
-  width: 100vw;
+  width: 100%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
