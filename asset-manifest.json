@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/falloutanomaly/static/css/main.7c45bdf2.css",
-    "main.js": "/falloutanomaly/static/js/main.4fef3452.js",
+    "main.css": "/falloutanomaly/static/css/main.ee9d8e8e.css",
+    "main.js": "/falloutanomaly/static/js/main.9f27c5e9.js",
     "static/js/787.c3f558a8.chunk.js": "/falloutanomaly/static/js/787.c3f558a8.chunk.js",
     "static/media/Photo53.png": "/falloutanomaly/static/media/Photo53.9bb0cd2e0ee445b4a7a3.png",
+    "static/media/lordcommander022.webp": "/falloutanomaly/static/media/lordcommander022.828b6b2c8903a59f533d.webp",
+    "static/media/crolivia.webp": "/falloutanomaly/static/media/crolivia.d82aace035eeab6c7216.webp",
     "static/media/petting-dog.webp": "/falloutanomaly/static/media/petting-dog.c7d51edcc8a593e835ec.webp",
+    "static/media/john.webp": "/falloutanomaly/static/media/john.21ddc19972f8b68fcd3e.webp",
+    "static/media/quik-carnage.webp": "/falloutanomaly/static/media/quik-carnage.50891590ec69c16fde9f.webp",
+    "static/media/nomad.webp": "/falloutanomaly/static/media/nomad.604e107155ceec846e8c.webp",
     "static/media/falloutanomalybanner.webp": "/falloutanomaly/static/media/falloutanomalybanner.f9e19aba1691eabd034e.webp",
+    "static/media/toddg.png": "/falloutanomaly/static/media/toddg.8b48a37f0eda9ce1915b.png",
     "index.html": "/falloutanomaly/index.html",
-    "main.7c45bdf2.css.map": "/falloutanomaly/static/css/main.7c45bdf2.css.map",
-    "main.4fef3452.js.map": "/falloutanomaly/static/js/main.4fef3452.js.map",
+    "main.ee9d8e8e.css.map": "/falloutanomaly/static/css/main.ee9d8e8e.css.map",
+    "main.9f27c5e9.js.map": "/falloutanomaly/static/js/main.9f27c5e9.js.map",
     "787.c3f558a8.chunk.js.map": "/falloutanomaly/static/js/787.c3f558a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c45bdf2.css",
-    "static/js/main.4fef3452.js"
+    "static/css/main.ee9d8e8e.css",
+    "static/js/main.9f27c5e9.js"
   ]
 }
