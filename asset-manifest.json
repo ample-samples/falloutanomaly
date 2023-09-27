@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/falloutanomaly/static/css/main.ebd8b162.css",
-    "main.js": "/falloutanomaly/static/js/main.1989c37f.js",
+    "main.css": "/falloutanomaly/static/css/main.c92f6fdb.css",
+    "main.js": "/falloutanomaly/static/js/main.fe65ca17.js",
     "static/js/787.c3f558a8.chunk.js": "/falloutanomaly/static/js/787.c3f558a8.chunk.js",
     "static/media/Photo53.png": "/falloutanomaly/static/media/Photo53.9bb0cd2e0ee445b4a7a3.png",
+    "static/media/petting-dog.webp": "/falloutanomaly/static/media/petting-dog.c7d51edcc8a593e835ec.webp",
     "static/media/falloutanomalybanner.webp": "/falloutanomaly/static/media/falloutanomalybanner.f9e19aba1691eabd034e.webp",
     "index.html": "/falloutanomaly/index.html",
-    "main.ebd8b162.css.map": "/falloutanomaly/static/css/main.ebd8b162.css.map",
-    "main.1989c37f.js.map": "/falloutanomaly/static/js/main.1989c37f.js.map",
+    "main.c92f6fdb.css.map": "/falloutanomaly/static/css/main.c92f6fdb.css.map",
+    "main.fe65ca17.js.map": "/falloutanomaly/static/js/main.fe65ca17.js.map",
     "787.c3f558a8.chunk.js.map": "/falloutanomaly/static/js/787.c3f558a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebd8b162.css",
-    "static/js/main.1989c37f.js"
+    "static/css/main.c92f6fdb.css",
+    "static/js/main.fe65ca17.js"
   ]
 }
