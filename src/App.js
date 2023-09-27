@@ -6,7 +6,7 @@ import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Media } from './pages/Media';
 import { Articles } from './pages/Articles';
-import foalogo from "./files/pictures/FOAlogo.png"
+import foalogo from "./files/pictures/FOAlogo-small.png"
 
 function App() {
   return (
