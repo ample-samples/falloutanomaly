@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/falloutanomaly/static/css/main.8d3f1e5a.css",
+    "main.css": "/falloutanomaly/static/css/main.8672dd0c.css",
     "main.js": "/falloutanomaly/static/js/main.c6040420.js",
     "static/js/787.c3f558a8.chunk.js": "/falloutanomaly/static/js/787.c3f558a8.chunk.js",
     "static/media/Photo53.png": "/falloutanomaly/static/media/Photo53.9bb0cd2e0ee445b4a7a3.png",
@@ -14,12 +14,12 @@
     "static/media/FOAlogo-small.png": "/falloutanomaly/static/media/FOAlogo-small.e6a37d48251f8fb8e619.png",
     "static/media/toddg.png": "/falloutanomaly/static/media/toddg.8b48a37f0eda9ce1915b.png",
     "index.html": "/falloutanomaly/index.html",
-    "main.8d3f1e5a.css.map": "/falloutanomaly/static/css/main.8d3f1e5a.css.map",
+    "main.8672dd0c.css.map": "/falloutanomaly/static/css/main.8672dd0c.css.map",
     "main.c6040420.js.map": "/falloutanomaly/static/js/main.c6040420.js.map",
     "787.c3f558a8.chunk.js.map": "/falloutanomaly/static/js/787.c3f558a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d3f1e5a.css",
+    "static/css/main.8672dd0c.css",
     "static/js/main.c6040420.js"
   ]
 }
