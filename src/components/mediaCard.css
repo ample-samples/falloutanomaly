@@ -1,12 +1,10 @@
 .media-card {
   display: inline-block;
   max-width: 100%;
-  position: relative;
   color: var(--color-4);
 }
 
 .desc-overlay {
-  position: relative;
   position: relative;
   background-color: #11111177;
   z-index: 1;

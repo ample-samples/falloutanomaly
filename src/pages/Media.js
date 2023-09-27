@@ -8,6 +8,7 @@ export function Media() {
     <>
       <h2>v0.4.6</h2>
       <div className="media-container">
+        <iframe style={{marginBottom: "3.25rem"}} width="1000" height="562" src="https://www.youtube.com/embed/JDd0mq4U9zc?si=4UnP1DGgHMkWXo0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <MediaCard src={pic1} desc="Patrolling around Boston with Fens PD" />
         <MediaCard src={pettingDog} desc="Good boi!" />
       </div>
