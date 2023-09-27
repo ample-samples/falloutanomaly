@@ -5,3 +5,7 @@
 .pack-description > ul {
   list-style: none;
 }
+
+.slider-container {
+  padding: 70px 0;
+}
