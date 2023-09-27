@@ -4,7 +4,7 @@ const pathStart = "falloutanomaly"
 
 export function NavBar() {
   const navigate = useNavigate()
-  const tabs = ["Home", "About", "Documentation", "Socials"]
+  const tabs = ["Home", "About", "Documentation", "Articles", "Media"]
 
   const handleNav = (e) => {
     switch (e.target.name) {
@@ -20,14 +20,38 @@ export function NavBar() {
         navigate(`/${pathStart}/docs`)
         break;
 
-      case "Socials":
-        navigate(`/${pathStart}/socials`)
+      case "Articles":
+        navigate(`/${pathStart}/articles`)
+        break;
+
+      case "Media":
+        navigate(`/${pathStart}/media`)
         break;
 
       default:
         break;
     }
   }
+
+// About will be
+// Socials
+// Team
+// Credits
+// Anything else
+//
+// Documentation is
+// Readme
+//
+//
+// Articles is
+// Any articles like Nexus we wanna host
+//
+// Media is
+// Screenshots and trailers
+
+//   Home is
+//
+// Mod features to show what to expect in the list
 
   return (
     <div className="navbar">

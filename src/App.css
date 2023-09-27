@@ -7,10 +7,15 @@
 
 body {
   background: var(--bg);
+  color: white;
 }
 
 h1 {
   color: var(--color-3)
+}
+
+h2 {
+  color: var(--color-2)
 }
 
 .hero-card {
@@ -53,4 +58,8 @@ h1 {
   font-size: 24pt;
   font-weight: 900;
   background-color: var(--bg);
+}
+
+.main-content {
+  padding: 40px;
 }

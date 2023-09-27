@@ -1,0 +1,12 @@
+.media-card {
+  max-height: 300px;
+  position: relative;
+  color: var(--color-4);
+}
+
+.desc {
+  position: relative;
+  bottom: 2rem;
+  left: 1rem;
+}
+

@@ -1,7 +1,10 @@
 import './App.css';
 import falloutanomalybanner from "./files/pictures/falloutanomalybanner.webp"
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
-import { NavBar } from './files/components/NavBar';
+import { NavBar } from './components/NavBar';
+import { Home } from './pages/Home';
+import { About } from './pages/About';
+import { Media } from './pages/Media';
 
 function App() {
   return (
@@ -12,8 +15,14 @@ function App() {
         </div>
       </div>
         <NavBar />
-        <Routes>
-        </Routes>
+        <div className="main-content">
+          <Routes>
+            <Route path="/falloutanomaly" element={<Home />} />
+            <Route path="/falloutanomaly/about" element={<About />} />
+            <Route path="/falloutanomaly/docs" element={<></>} />
+            <Route path="/falloutanomaly/media" element={<Media />} />
+          </Routes>
+        </div>
     </div>
   );
 }
