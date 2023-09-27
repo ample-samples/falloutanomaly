@@ -9,3 +9,15 @@
 .slider-container {
   padding: 70px 0;
 }
+
+.category-sliders-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  column-gap: 10vw;
+  justify-content: center;
+}
+
+.category-sliders-container * {
+  text-align: center;
+}
