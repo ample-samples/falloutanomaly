@@ -5,6 +5,7 @@ import { NavBar } from './components/NavBar';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Media } from './pages/Media';
+import { Articles } from './pages/Articles';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/falloutanomaly" element={<Home />} />
             <Route path="/falloutanomaly/about" element={<About />} />
             <Route path="/falloutanomaly/docs" element={<></>} />
+            <Route path="/falloutanomaly/articles" element={<Articles />} />
             <Route path="/falloutanomaly/media" element={<Media />} />
           </Routes>
         </div>

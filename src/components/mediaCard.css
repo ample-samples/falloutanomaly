@@ -1,12 +1,24 @@
 .media-card {
-  max-height: 300px;
+  max-width: 100%;
   position: relative;
   color: var(--color-4);
 }
 
-.desc {
+.desc-overlay {
   position: relative;
-  bottom: 2rem;
-  left: 1rem;
+  position: relative;
+  background-color: #33333333;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  bottom: 3.25rem;
+  height: 3rem;
+  display: grid;
+  align-content: center;
+}
+
+.desc {
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 

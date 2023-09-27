@@ -1,4 +1,5 @@
 import pic1 from "../files/pictures/Photo53.png"
+import pettingDog from "../files/pictures/petting-dog.webp"
 import { MediaCard } from "../components/MediaCard"
 
 export function Media() {
@@ -6,7 +7,8 @@ export function Media() {
     <>
       <h2>v0.4.6</h2>
       <div className="media-container">
-        <MediaCard srca={pic1} desc="Patrolling with the Fens PD" />
+        <MediaCard srca={pic1} desc="Patrolling around Boston with the Fens PD" />
+        <MediaCard srca={pettingDog} desc="Good boi!" />
       </div>
     </>
   )
