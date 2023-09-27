@@ -1,0 +1,7 @@
+.pack-description {
+  text-align: center;
+}
+
+.pack-description > ul {
+  list-style: none;
+}
