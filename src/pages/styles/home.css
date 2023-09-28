@@ -1,3 +1,9 @@
+.home-container {
+  max-width: 1920px;
+  margin: 0 auto;
+  justify-items: center;
+}
+
 .pack-description {
   text-align: center;
 }
@@ -34,8 +40,7 @@
   .category-sliders-container {
     width: 100%;
     display: grid;
-    grid-template-rows: 200px 200px;
-    row-gap: 44vw;
+    grid-template-rows: repeat(auto-fill, 200px);
     justify-content: center;
   }
 
@@ -47,8 +52,9 @@
     max-width: 85vw;
   }
 
-    .slider-container img {
-    }
+  .category-slider:nth-child(2) {
+    margin-top: 40vw;
+  }
 }
 
 .category-sliders-container * {

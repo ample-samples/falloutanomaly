@@ -9,18 +9,20 @@ import "./styles/about.css"
 export function About() {
   return(
     <>
-      <h1>Socials</h1>
-      <h1>Team</h1>
-      <div className="team-container">
-        <img src={quikcarnage} alt=""/>
-        <img src={nomad} alt=""/>
-        <img src={crolivia} alt=""/>
-        <img src={john} alt=""/>
-        <img src={toddg} alt=""/>
-        <img src={lordcommander022} alt=""/>
+      <div className="about-container">
+        <h1>Socials</h1>
+        <h1>Team</h1>
+        <div className="team-container">
+          <img src={quikcarnage} alt=""/>
+          <img src={nomad} alt=""/>
+          <img src={crolivia} alt=""/>
+          <img src={john} alt=""/>
+          <img src={toddg} alt=""/>
+          <img src={lordcommander022} alt=""/>
+        </div>
+        <h1>Credits</h1>
+        <h1>Anything else</h1>
       </div>
-      <h1>Credits</h1>
-      <h1>Anything else</h1>
     </>
   )
 }

@@ -26,24 +26,46 @@ export function Home() {
 
   return(
     <>
-      <h1>What is Fallout Anomaly?</h1>
-      <p className="pack-description">Embark on an epic journey through the post-apocalyptic wastelands of Fallout 4 like never before! In Fallout Anomaly, you'll step into the worn boots of a survivor born in the shadow of Moscow's destruction, shaped by the horrors of war and the relentless threat of radiation. This modpack seamlessly blends the best elements from popular mod lists, creating an unforgettable experience.
-        <br />
-        <p className="breakdown-message">{breakdownMessage}</p>
-        <br />
-        Fallout Anomaly offers an expansive and captivating experience, blending the rich storytelling of A Storywealth, the survival and eerie atmosphere of Immersive Wasteland, the modern gameplay of Vault Boy 101 Total Overhaul v.2.0, and the haunting Stalker-like ambiance of Lost World. Join us in this relentless pursuit of adventure and uncover the secrets of the Commonwealth. Your journey begins now!
-      </p>
-      <hr/>
-      <div className="category-sliders-container">
-        <div className="category-slider">
-          <h2 style={{margin:"10vw 0 0 0"}}><u>Gameplay</u></h2>
-          <GameplayCarousel  />
-          <p>Description text</p>
-        </div>
-        <div className="category-slider">
-          <h2 style={{margin:"10vw 0 0 0"}}><u>Quests</u></h2>
-          <QuestCarousel  />
-          <p>Description text</p>
+      <div className="home-container">
+        <h1>What is Fallout Anomaly?</h1>
+        <p className="pack-description">Embark on an epic journey through the post-apocalyptic wastelands of Fallout 4 like never before! In Fallout Anomaly, you'll step into the worn boots of a survivor born in the shadow of Moscow's destruction, shaped by the horrors of war and the relentless threat of radiation. This modpack seamlessly blends the best elements from popular mod lists, creating an unforgettable experience.
+          <br />
+          <p className="breakdown-message">{breakdownMessage}</p>
+          <br />
+          Fallout Anomaly offers an expansive and captivating experience, blending the rich storytelling of A Storywealth, the survival and eerie atmosphere of Immersive Wasteland, the modern gameplay of Vault Boy 101 Total Overhaul v.2.0, and the haunting Stalker-like ambiance of Lost World. Join us in this relentless pursuit of adventure and uncover the secrets of the Commonwealth. Your journey begins now!
+        </p>
+        <hr/>
+        <div className="category-sliders-container">
+          <div className="category-slider">
+            <h2 style={{margin:"10px 0 0 0"}}><u>Gameplay</u></h2>
+            <GameplayCarousel  />
+            <p>Description text</p>
+          </div>
+          <div className="category-slider">
+            <h2 style={{margin:"10px 0 0 0"}}><u>Quests</u></h2>
+            <QuestCarousel  />
+            <p>Description text</p>
+          </div>
+          <div className="category-slider">
+            <h2 style={{margin:"10px 0 0 0"}}><u>Textures/Visuals/Audio</u></h2>
+            <GameplayCarousel  />
+            <p>Description text</p>
+          </div>
+          <div className="category-slider">
+            <h2 style={{margin:"10px 0 0 0"}}><u>Weapons</u></h2>
+            <QuestCarousel  />
+            <p>Description text</p>
+          </div>
+          <div className="category-slider">
+            <h2 style={{margin:"10px 0 0 0"}}><u>Creatures</u></h2>
+            <GameplayCarousel  />
+            <p>Description text</p>
+          </div>
+          <div className="category-slider">
+            <h2 style={{margin:"10px 0 0 0"}}><u>Npcs & Factions</u></h2>
+            <QuestCarousel  />
+            <p>Description text</p>
+          </div>
         </div>
       </div>
     </>

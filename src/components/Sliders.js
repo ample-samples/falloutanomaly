@@ -10,8 +10,10 @@ const settings = {
   cssEase: "ease",
   centerMode: true,
   autoplay: true,
-  autoplaySpeed: 2500,
 };
+
+const [max, min] = [7500, 5500]
+const randAutoplayspeed = () => Math.random() * (max - min) + min
 
 export class GameplayCarousel extends Component {
   render() {
@@ -19,7 +21,7 @@ export class GameplayCarousel extends Component {
     const sliderImgWidth = "100%"
     return (
       <div className="carousel">
-        <Slider {...settings}>
+        <Slider {...{...settings, autoplaySpeed: randAutoplayspeed() }}>
           <div className="slider-container">
             <a rel="noreferrer" target="_blank" href="https://www.nexusmods.com/fallout4/mods/66051">
               <img alt="munitions" height={sliderImgHeight} width={sliderImgWidth} className="slider-image" src="https://staticdelivery.nexusmods.com/mods/1151/images/66051/66051-1691698584-597097974.png" />
@@ -68,10 +70,11 @@ export class GameplayCarousel extends Component {
         </Slider>
       </div>
     );
+
   }
 }
 
-const containerCarouselInfo = [
+const questCarouselInfo = [
   {
     name: "Atomic Radio and Tales from the Commonwealth",
     src: "https://staticdelivery.nexusmods.com/mods/1151/images/8704-0-1468526937.jpg",
@@ -135,9 +138,9 @@ export class QuestCarousel extends Component {
     const sliderImgWidth = "100%"
     return (
       <div className="carousel">
-        <Slider {...settings}>
+        <Slider {...{...settings, autoplaySpeed: randAutoplayspeed() }}>
           {
-            containerCarouselInfo.map((info) => {
+            questCarouselInfo.map((info) => {
                 return(
                   <div className="slider-container">
                     <a rel="noreferrer" target="_blank" href={info.href}>

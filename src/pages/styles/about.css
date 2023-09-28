@@ -1,9 +1,14 @@
+.about-container {
+  max-width: 1920px;
+  margin: 0 auto;
+  justify-items: center;
+}
+
 .team-container {
   max-width: 100%;
   display: grid;
   justify-content: center;
   grid-template-columns: auto auto auto;
-
 }
 
 .team-container > img {
