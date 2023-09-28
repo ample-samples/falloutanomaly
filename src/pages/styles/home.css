@@ -35,7 +35,7 @@
     width: 100%;
     display: grid;
     grid-template-rows: 200px 200px;
-    row-gap: 14vw;
+    row-gap: 44vw;
     justify-content: center;
   }
 
@@ -46,6 +46,9 @@
   .category-sliders-container > .category-slider {
     max-width: 85vw;
   }
+
+    .slider-container img {
+    }
 }
 
 .category-sliders-container * {

@@ -36,12 +36,12 @@ export function Home() {
       <hr/>
       <div className="category-sliders-container">
         <div className="category-slider">
-          <h2 style={{margin:"3rem 0 0 0"}}><u>Gameplay</u></h2>
+          <h2 style={{margin:"10vw 0 0 0"}}><u>Gameplay</u></h2>
           <GameplayCarousel  />
           <p>Description text</p>
         </div>
         <div className="category-slider">
-          <h2 style={{margin:"3rem 0 0 0"}}><u>Quests</u></h2>
+          <h2 style={{margin:"10vw 0 0 0"}}><u>Quests</u></h2>
           <QuestCarousel  />
           <p>Description text</p>
         </div>
