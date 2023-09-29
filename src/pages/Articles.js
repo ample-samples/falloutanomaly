@@ -5,11 +5,6 @@ import "./styles/articles.css"
 
 export function Articles() {
 
-  function extractContent(html) {
-    return new DOMParser()
-      .parseFromString(html, "text/html")
-      .documentElement.textContent;
-  }
   const [message, setmessage] = useState('')
 
   useEffect(() => {
