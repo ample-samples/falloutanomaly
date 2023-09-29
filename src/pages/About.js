@@ -9,7 +9,7 @@ import "./styles/about.css"
 export function About() {
   return(
     <>
-      <div className="about-container">
+      <div className="about-container limit-width-large">
         <h1>Socials</h1>
         <h1>Team</h1>
         <div className="team-container">

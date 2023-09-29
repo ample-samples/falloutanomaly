@@ -26,7 +26,7 @@ export function Home() {
 
   return(
     <>
-      <div className="home-container">
+      <div className="home-container limit-width-large">
         <h1>What is Fallout Anomaly?</h1>
         <p className="pack-description">Embark on an epic journey through the post-apocalyptic wastelands of Fallout 4 like never before! In Fallout Anomaly, you'll step into the worn boots of a survivor born in the shadow of Moscow's destruction, shaped by the horrors of war and the relentless threat of radiation. This modpack seamlessly blends the best elements from popular mod lists, creating an unforgettable experience.
           <br />
@@ -62,7 +62,7 @@ export function Home() {
             <p>Description text</p>
           </div>
           <div className="category-slider">
-            <h2 style={{margin:"10px 0 0 0"}}><u>Npcs & Factions</u></h2>
+            <h2 style={{margin:"10px 0 0 0"}}><u>NPCs & Factions</u></h2>
             <QuestCarousel  />
             <p>Description text</p>
           </div>
