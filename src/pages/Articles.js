@@ -5,16 +5,23 @@ import "./styles/articles.css"
 
 export function Articles() {
 
-  const [message, setmessage] = useState('')
+  const [message, setmessage] = useState(' ')
 
   useEffect(() => {
     getArticles()
   })
 
   const getArticles = async () => {
-    const response = await fetch("https://falloutanomaly-server-ample-samples.vercel.app/files", {method: "GET"}).then((res) => res.blob())
-    const text = await response.text()
-    setmessage(text)
+    let response
+    try {
+      response = await fetch("https://falloutanomaly-server-ample-samples.vercel.app/files", {method: "GET"}).then((res) => res.blob())
+      const text = await response.text()
+      console.log(text)
+      setmessage(text)
+    } catch (error) {
+      setmessage(null)
+      console.log(error)
+    }
   }
 
 
@@ -23,7 +30,7 @@ export function Articles() {
   return(
     <>
       <h1>Articles</h1>
-      <div id="md-text" dangerouslySetInnerHTML={{__html: marked.parse(DOMPurify.sanitize(marked.parse(message)))}}/>
+      { message? <div id="md-text" dangerouslySetInnerHTML={{__html:DOMPurify.sanitize(marked.parse(message))}}/> : <p>I'm sorry this article can't be rendered, please contact the FA Team for asssistance.</p> }
     </>
   )
 }
