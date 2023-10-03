@@ -12,10 +12,8 @@
   font-family: system-ui;
 }
 
-.install-container h1 {
-  text-align: left;
+i.install-doc h1 {
 }
-
 
 @media screen and (min-width: 1000px) {
   .install-doc pre {
@@ -23,7 +21,7 @@
     margin-right:50px;
   }
 }
-/*  */
+
 /* @media screen and (max-width: 1000px) { */
 /*   .install-doc pre { */
 /*     margin-left:0px; */
@@ -33,14 +31,18 @@
 
 .ReactCollapse--collapse {
   border-radius: 10px;
-  transition: height 250ms;
+  transition: height 150ms;
+  border: 2px solid var(--color-2);
 }
 
-.collapse-section > h1 {
-}
+/* .collapse-section > button> h1 { */
+/*   padding: 0; */
+/*   margin: 0; */
+/* } */
 
 .collapse-section > button {
   background-color: #00000000;
   border: 2px solid #00000000;
   cursor: pointer;
+  padding: 0;
 }
