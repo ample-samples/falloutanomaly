@@ -7,6 +7,16 @@
   margin-right:30px;
 }
 
+.install-doc code {
+  font-family: system-ui;
+}
+
+.install-container h1 {
+  text-align: left;
+}
+
+
+
 @media screen and (min-width: 1000px) {
   .install-doc pre {
     margin-left:50px;

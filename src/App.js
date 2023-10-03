@@ -18,16 +18,16 @@ function App() {
           <img className="hero-title" src={foalogo} alt="" />
         </div>
       </div>
-        <NavBar />
-        <div className="main-content">
-          <Routes>
-            <Route path="" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/docs" element={<Documentation />} />
-            <Route path="/articles" element={<Articles />} />
-            <Route path="/media" element={<Media />} />
-          </Routes>
-        </div>
+      <NavBar />
+      <div className="main-content">
+        <Routes>
+          <Route path="" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/docs" element={<Documentation />} />
+          <Route path="/articles" element={<Articles />} />
+          <Route path="/media" element={<Media />} />
+        </Routes>
+      </div>
     </div>
   );
 }
