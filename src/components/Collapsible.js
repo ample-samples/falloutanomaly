@@ -10,7 +10,7 @@ export function Collapsible({title, body}) {
         <div className="collapse-section">
           <button onClick={() => {setIsOpen(!isOpen)}}><h1>{isOpen? `⮟`: `⮞`} { title}</h1></button>
           <Collapse isOpened={isOpen}>
-            <div className="install-doc" id="md-text" dangerouslySetInnerHTML={{__html:marked.parse(body)}}/>
+            <div className="install-doc" dangerouslySetInnerHTML={{__html:marked.parse(body)}}/>
           </Collapse>
         </div>
     )
