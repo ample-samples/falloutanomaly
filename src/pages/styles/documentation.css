@@ -3,8 +3,16 @@
 }
 
 .ReactCollapse--collapse {
-  border: 1px solid rgba(3, 169, 244, 0.3);
   border-radius: 10px;
-  transition: height 500ms;
+  transition: height 250ms;
+}
+
+.collapse-section > h1 {
+}
+
+.collapse-section > button {
+  background-color: #00000000;
+  border: 2px solid var(--color-3);
+  cursor: pointer;
 }
 
