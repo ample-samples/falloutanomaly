@@ -33,6 +33,7 @@ i.install-doc h1 {
   border-radius: 10px;
   transition: height 150ms;
   border: 2px solid var(--color-2);
+  padding: 0 10px;
 }
 
 /* .collapse-section > button> h1 { */

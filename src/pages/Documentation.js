@@ -8,8 +8,6 @@ export function Documentation() {
   const installWarning = `ADDING ANY MODS VOIDS SUPPORT FROM THE DEVELOPERS! DO AT YOUR OWN RISK! YOU HAVE BEEN WARNED! FURTHERMORE, IF YOU HAVE THOROUGHLY READ & WATCHED EVERYTHING IN THIS GUIDE & ARE STILL EXPERIENCING ISSUES, PLEASE JOIN OUR DISCORD﻿ HERE﻿ TO RECEIVE DEDICATED SUPPORT FROM OUR COMMUNITY MEMBERS OR A DEVELOPER! THANK YOU FOR TRYING FALLOUT ANOMALY!` 
   const p1Title = `PART 1: SYSTEM REQUIREMENTS`
   const p1Body = `
-    While currently undergoing testing on a low-end system, it is strongly recommended to meet, at a minimum, the official system requirements for Fallout 4.
-
 ## Minimum System Requirements
     Requires a 64-bit processor and operating system.
 
@@ -34,7 +32,10 @@ export function Documentation() {
 
     OS: Windows 7/8/10 (64-bit OS required)
 
-    FREE DISK SPACE: 300 GB `
+    FREE DISK SPACE: 300 GB
+
+While currently undergoing testing on a low-end system, it is strongly recommended to meet, at a minimum, the official system requirements for Fallout 4. `
+
 
   const p2Title = ` PART 2: ADDITIONAL RECOMMENDATIONS `
   const p2Body = `
@@ -94,6 +95,7 @@ export function Documentation() {
 
   const p6Title = ` PART 6: STEAM & FALLOUT 4 SETUP `
   const p6Body = `
+## A fresh Fallout 4 installation is required
     Ensure that Fallout 4 is fully updated through Steam. Adjust your Steam settings to enable updates only when the game is launched, deactivate the Steam Overlay, and set the game's language to English. Additionally, check that your documents folder, found at Documents/MyGames/Fallout4, contains no files other than [SAVES]. Following this, launch Fallout 4 via Steam, allow the launcher to run, and subsequently close it after any prompts. This process will update the Windows registry.
 
 ## HOW-TO UNINSTALL VIDEO:
@@ -192,7 +194,6 @@ export function Documentation() {
     ~THANK YOU, STALKER! `
 
   return(
-    <>
       <div className="install-container limit-width-large">
         <Collapsible title={p1Title} body={p1Body} />
         <Collapsible title={p2Title} body={p2Body} />
@@ -210,5 +211,5 @@ export function Documentation() {
         <Collapsible title={p14Title} body={p14Body} />
         <Collapsible title={p15Title} body={p15Body} />
       </div>
-    </>  )
+  )
 }
