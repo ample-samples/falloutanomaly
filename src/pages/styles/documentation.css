@@ -1,5 +1,6 @@
 .install-doc * {
   text-wrap: wrap;
+  font-weight: 500;
 }
 
 .install-doc h1,h2,h3,h4 {
@@ -14,7 +15,6 @@
 .install-container h1 {
   text-align: left;
 }
-
 
 
 @media screen and (min-width: 1000px) {
