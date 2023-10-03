@@ -5,10 +5,8 @@ import { Collapsible } from "../components/Collapsible"
 import "./styles/documentation.css"
 
 export function Documentation() {
-  const installWarning = `ADDING ANY MODS VOIDS SUPPORT FROM THE DEVELOPERS! DO AT YOUR OWN RISK! YOU HAVE BEEN WARNED! FURTHERMORE, IF YOU HAVE THOROUGHLY READ & WATCHED EVERYTHING IN THIS GUIDE & ARE STILL EXPERIENCING ISSUES, PLEASE JOIN OUR DISCORD﻿ HERE﻿ TO RECEIVE DEDICATED SUPPORT FROM OUR COMMUNITY MEMBERS OR A DEVELOPER! THANK YOU FOR TRYING FALLOUT ANOMALY!` 
   const p1Title = `PART 1: SYSTEM REQUIREMENTS`
-  const p1Body = `
-## Minimum System Requirements
+  const p1Body = `## Minimum System Requirements
     Requires a 64-bit processor and operating system.
 
     OS: Windows 7/8/10 (64-bit OS required)
@@ -36,6 +34,8 @@ export function Documentation() {
 
 Note: While currently undergoing testing on a low-end system, it is strongly recommended to meet, at a minimum, the official system requirements for Fallout 4. `
 
+  const installWarning = `ADDING ANY MODS VOIDS SUPPORT FROM THE DEVELOPERS! DO AT YOUR OWN RISK! YOU HAVE BEEN WARNED! FURTHERMORE, IF YOU HAVE THOROUGHLY READ & WATCHED EVERYTHING IN THIS GUIDE & ARE STILL EXPERIENCING ISSUES, PLEASE JOIN OUR 
+[DISCORD](https://www.github.com/markedjs/marked) HERE TO RECEIVE DEDICATED SUPPORT FROM OUR COMMUNITY MEMBERS OR A DEVELOPER! THANK YOU FOR TRYING FALLOUT ANOMALY!` 
 
   const p2Title = ` PART 2: ADDITIONAL RECOMMENDATIONS `
   const p2Body = `
@@ -214,9 +214,9 @@ Note: While currently undergoing testing on a low-end system, it is strongly rec
         <Collapsible title={p13Title} body={p13Body} />
         <Collapsible title={p14Title} body={p14Body} />
         <Collapsible title={p15Title} body={p15Body} />
-      <hr />
-      
-      {installWarning}
+        <hr />
+        
+        <div className="install-doc" dangerouslySetInnerHTML={{__html:marked.parse(installWarning.replace(/^[\u200B\u200C\u200D\u200E\u200F\uFEFF]/,""))}}/>
       </div>
   )
 }

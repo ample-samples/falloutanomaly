@@ -5,6 +5,9 @@ import { UnmountClosed } from "react-collapse";
 
 
 export function Collapsible({title, body}) {
+  marked.use({
+    gfm: true
+  });
   const [isOpen, setIsOpen] = useState(false)
 
     return(
