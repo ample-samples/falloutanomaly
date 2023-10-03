@@ -7,6 +7,7 @@ import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Media } from './pages/Media';
 import { Articles } from './pages/Articles';
+import { Documentation } from './pages/Documentation';
 import foalogo from "./files/pictures/FOAlogo-small.png"
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
           <Routes>
             <Route path="" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/docs" element={<></>} />
+            <Route path="/docs" element={<Documentation />} />
             <Route path="/articles" element={<Articles />} />
             <Route path="/media" element={<Media />} />
           </Routes>
