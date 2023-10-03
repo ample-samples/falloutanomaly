@@ -4,7 +4,7 @@ import { marked } from "marked";
 
 
 export function Collapsible({title, body}) {
-  const [isOpen, setIsOpen] = useState()
+  const [isOpen, setIsOpen] = useState(false)
 
     return(
         <div className="collapse-section">
