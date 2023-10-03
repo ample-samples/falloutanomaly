@@ -205,7 +205,6 @@ export function Documentation() {
   return(
     <>
       <div className="install-container limit-width-large">
-        <h3>{installWarning}</h3>
         <Collapsible title={p1Title} body={p1Body} />
         <Collapsible title={p2Title} body={p2Body} />
       </div>
