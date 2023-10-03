@@ -34,7 +34,7 @@ export function Documentation() {
 
     FREE DISK SPACE: 300 GB
 
-While currently undergoing testing on a low-end system, it is strongly recommended to meet, at a minimum, the official system requirements for Fallout 4. `
+Note: While currently undergoing testing on a low-end system, it is strongly recommended to meet, at a minimum, the official system requirements for Fallout 4. `
 
 
   const p2Title = ` PART 2: ADDITIONAL RECOMMENDATIONS `
@@ -46,7 +46,8 @@ While currently undergoing testing on a low-end system, it is strongly recommend
 
   const p3Title = ` PART 3: DETAILED SYSTEM REQUIREMENTS `
   const p3Body = `
-    The Anomaly Team is constantly seeking ways to enhance performance across a variety of systems. Version 0.5 will feature a performance overhaul, but for the best possible experience with Fallout Anomaly, please consider the following recommended setup:
+    Note: The Anomaly Team is constantly seeking ways to enhance performance across a variety of systems. Version 0.5 will feature a performance overhaul, but for the best possible experience with Fallout Anomaly,
+##  Please consider the following recommended setup:
 
     CPU: A processor with at least 3GHz clock speed.
 
@@ -123,7 +124,8 @@ While currently undergoing testing on a low-end system, it is strongly recommend
 
   const p9Title = ` PART 9: WABBAJACK DOWNLOAD ISSUES (FOR USE W/ UPCOMING UPDATE 0.4.7 & BEYOND)﻿ `
   const p9Body = `
-    Occasionally, you might encounter issues with Wabbajack when attempting to download from Google Drive links. If so, follow these very simple instructions below to fix this:
+    Occasionally, you might encounter issues with Wabbajack when attempting to download from Google Drive links. If so, 
+## Follow these very simple instructions below to fix it:
 
     1. Go to the Google Drive link﻿ and download the file.
 
@@ -135,7 +137,8 @@ While currently undergoing testing on a low-end system, it is strongly recommend
 
   const p10Title = ` PART 10: BETHINI SETUP (FOR USE W/ UPCOMING UPDATE 0.4.7 & BEYOND) `
   const p10Body = `
-    Ensure MO2 is closed and run BethINI.exe from the Fallout Anomaly MO2 tools folder. Follow these steps:
+    Ensure MO2 is closed and run BethINI.exe from the Fallout Anomaly MO2 tools folder. 
+## Follow these steps:
 
     1. Direct BethINI to your Mod Organizer 2 via the BethINI SETTINGS tab.
 
@@ -149,7 +152,8 @@ While currently undergoing testing on a low-end system, it is strongly recommend
 
   const p12Title = ` PART 12: ENB PRESETS `
   const p12Body = `
-    ENB is a tool or modification (mod) that significantly enhances the game's graphics by improving elements like lighting and shadows, resulting in a more stunning and realistic game world. Our list provides you with a variety of ENBs to choose from or disable altogether, which can help improve your game's performance. Follow these straightforward steps to understand how to do so:
+    ENB is a tool or modification (mod) that significantly enhances the game's graphics by improving elements like lighting and shadows, resulting in a more stunning and realistic game world. Our list provides you with a variety of ENBs to choose from or disable altogether, which can help improve your game's performance. 
+## Follow these straightforward steps to change your ENB preset:
 
     1. In MO2, locate the "ENB - ONLY ONE ENABLED AT A TIME!" blue separator. Under this separator, you will find all the available presets.
 
@@ -210,6 +214,9 @@ While currently undergoing testing on a low-end system, it is strongly recommend
         <Collapsible title={p13Title} body={p13Body} />
         <Collapsible title={p14Title} body={p14Body} />
         <Collapsible title={p15Title} body={p15Body} />
+      <hr />
+      
+      {installWarning}
       </div>
   )
 }
