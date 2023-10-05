@@ -198,25 +198,24 @@ Note: While currently undergoing testing on a low-end system, it is strongly rec
     ~THANK YOU, STALKER! `
 
   return(
-      <div className="install-container limit-width-large">
-        <Collapsible title={p1Title} body={p1Body} />
-        <Collapsible title={p2Title} body={p2Body} />
-        <Collapsible title={p3Title} body={p3Body} />
-        <Collapsible title={p4Title} body={p4Body} />
-        <Collapsible title={p5Title} body={p5Body} />
-        <Collapsible title={p6Title} body={p6Body} />
-        <Collapsible title={p7Title} body={p7Body} />
-        <Collapsible title={p8Title} body={p8Body} />
-        <Collapsible title={p9Title} body={p9Body} />
-        <Collapsible title={p10Title} body={p10Body} />
-        <Collapsible title={p11Title} body={p11Body} />
-        <Collapsible title={p12Title} body={p12Body} />
-        <Collapsible title={p13Title} body={p13Body} />
-        <Collapsible title={p14Title} body={p14Body} />
-        <Collapsible title={p15Title} body={p15Body} />
-        <hr />
-        
-        <div className="install-doc" dangerouslySetInnerHTML={{__html:marked.parse(installWarning.replace(/^[\u200B\u200C\u200D\u200E\u200F\uFEFF]/,""))}}/>
-      </div>
+    <div className="install-container limit-width-large">
+      <Collapsible title={p1Title} body={p1Body} />
+      <Collapsible title={p2Title} body={p2Body} />
+      <Collapsible title={p3Title} body={p3Body} />
+      <Collapsible title={p4Title} body={p4Body} />
+      <Collapsible title={p5Title} body={p5Body} />
+      <Collapsible title={p6Title} body={p6Body} />
+      <Collapsible title={p7Title} body={p7Body} />
+      <Collapsible title={p8Title} body={p8Body} />
+      <Collapsible title={p9Title} body={p9Body} />
+      <Collapsible title={p10Title} body={p10Body} />
+      <Collapsible title={p11Title} body={p11Body} />
+      <Collapsible title={p12Title} body={p12Body} />
+      <Collapsible title={p13Title} body={p13Body} />
+      <Collapsible title={p14Title} body={p14Body} />
+      <Collapsible title={p15Title} body={p15Body} />
+      <hr />
+      <div className="install-doc" dangerouslySetInnerHTML={{__html:marked.parse(installWarning.replace(/^[\u200B\u200C\u200D\u200E\u200F\uFEFF]/,""))}}/>
+    </div>
   )
 }
