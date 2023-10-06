@@ -20,13 +20,12 @@ export function About() {
         <hr />
         <div className="socials-container">
           <div className="socials-links">
-            <button className="socials-link" onClick={goToLink} value="https://www.google.com">WABBAJACK MODLIST</button>
-            <button className="socials-link" onClick={goToLink} value="https://www.google.com">VIEW THE FULL LIST</button>
-            <button className="socials-link" onClick={goToLink} value="https://www.google.com">DISCORD</button>
-            <button className="socials-link" onClick={goToLink} value="https://www.google.com">YOUTUBE</button>
-            <button className="socials-link" onClick={goToLink} value="https://www.google.com">TIKTOK</button>
-            <button className="socials-link" onClick={goToLink} value="https://www.google.com">TWITCH</button>
-            <button className="socials-link" onClick={goToLink} value="https://www.google.com">STREAMLABS</button>
+            <button className="socials-link shadow" onClick={goToLink} value="https://www.google.com">WABBAJACK MODLIST</button>
+            <button className="socials-link shadow" onClick={goToLink} value="https://www.google.com">VIEW THE FULL LIST</button>
+            <button className="socials-link shadow" onClick={goToLink} value="https://www.google.com">DISCORD</button>
+            <button className="socials-link shadow" onClick={goToLink} value="https://www.google.com">YOUTUBE</button>
+            <button className="socials-link shadow" onClick={goToLink} value="https://www.google.com">TIKTOK</button>
+            <button className="socials-link shadow" onClick={goToLink} value="https://www.google.com">TWITCH</button>
           </div>
           <div className="socials-img">
             <img src={foalogo} width="100%" alt="" />
